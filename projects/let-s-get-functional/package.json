@@ -32,6 +32,7 @@
     "sinon": "^2.2.0"
   },
   "dependencies": {
+    "lets-get-functional": "file:",
     "underbar": "^0.1.0"
   }
 }
