@@ -131,8 +131,8 @@ var youngestCustomer = function(array){
 }
 
 var averageBalance = array => {
-    let totBal;
-    let avgBal;
+    let totBal = 0;
+    let avgBal = 0;
     //loop through the array to access the balance properties
     for (let i = 0; i < array.length; i++){
 
@@ -141,7 +141,7 @@ var averageBalance = array => {
     }
 
 
-    return parseFloat((totBal / array.length).toFixed(3));
+    return Number((totBal / array.length));
 };
 
 
@@ -184,8 +184,11 @@ var firstLetterCount = (array, letter) => {
 //  - **Output**: `Number`
 //  - **Constraints**:
 
+
+
 //assigned to a function that takes values of array, customer (presumably a string name of a customer), and a letter as parameters
 var friendFirstLetterCount = (array, customer, letter) => {
+
     //create a counter variable for later use and return
     let counter = 0;
 
@@ -218,10 +221,26 @@ var friendFirstLetterCount = (array, customer, letter) => {
 
 
 
-
+// ### 8: `friendsCount`
+//  - **Objective**: Find the customers' names that have a given customer's name in their friends list
+//  - **Input**: `Array`, `Name`
+//  - **Output**: `Array`
+//  - **Constraints**:
 
 
 var friendsCount;
+
+
+
+
+
+
+
+
+
+
+
+
 
 var topThreeTags;
 
